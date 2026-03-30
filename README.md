@@ -64,27 +64,12 @@ Code Editor / IDE**
  Step 1: Install Python
 
 Make sure Python is installed on your system.
-You can check by running:
-
-```bash id="n1r2gi"
-python --version
-
-
-Step 2: Clone the Repository
-
-Download the project from GitHub using:
-
-bash id="e2u4qx"
-git clone https://github.com/your-username/your-repo-name
-cd your-repo-name
 
 
  Step 3: Navigate to Project Folder
 
 Move into the project directory:
 
-```bash id="qntgpi"
-cd src
 
 
 Step 4: Run the Program
@@ -106,23 +91,16 @@ Instructions for Execution / Testing
    * Marks (out of 100)
    * Total study hours
 
-   Example:
-
-   ```id="0dtvsh"
-   Math, Physics, English
-   5,4,2
-   40,60,85
-   6
-   ```
+   
+  
 
 3. The system will process the input and generate a timetable.
 
 4. The output will be displayed on the screen in this format:
 
-   ```id="gqxzsj"
-   08:00 - 10:30 -> Math
-   10:30 - 10:45 -> Break
-   10:45 - 12:30 -> Physics
+   `8:00 - 10:30 - Math
+   10:30 - 10:45 - Break
+   10:45 - 12:30 - Physics
    ```
 
 5. A file named `timetable.txt` will be automatically created in the project folder.
